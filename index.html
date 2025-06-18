@@ -10,9 +10,11 @@
         h1 { text-align: center; }
         .dropdown { margin: 20px auto; text-align: center; }
         select { padding: 8px 12px; font-size: 16px; border-radius: 5px; border: 1px solid #ccc; }
-        .day, .section { margin-top: 20px; padding: 10px; background: #2c3e50; color: white; border-radius: 8px; font-size: 1.2em; }
+        .hotel, .day { margin-top: 30px; padding: 10px; background: #2c3e50; color: white; border-radius: 8px; font-size: 1.2em; }
+        .section { margin-top: 15px; font-weight: bold; color: #2980b9; }
         ul { list-style-type: none; padding-left: 0; }
         li { background: white; padding: 10px; margin: 5px 0; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); word-break: break-word; }
+        .hotel-info { background: white; padding: 10px; margin: 10px 0; border-radius: 6px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
     </style>
     <script>
         function filterDays() {
@@ -36,6 +38,18 @@
         <select id="daySelector" onchange="filterDays()">
             <option value="all">All Days</option>
             
+            <option value="Fri 6/20">Fri 6/20</option>
+            
+            <option value="Sat 6/21">Sat 6/21</option>
+            
+            <option value="Sun 6/22">Sun 6/22</option>
+            
+            <option value="Mon 6/23">Mon 6/23</option>
+            
+            <option value="Tues 6/24">Tues 6/24</option>
+            
+            <option value="Wed 6/25">Wed 6/25</option>
+            
             <option value="Thurs 6/26">Thurs 6/26</option>
             
             <option value="Fri 6/27">Fri 6/27</option>
@@ -43,6 +57,219 @@
         </select>
     </div>
 
+    <div class="hotel">Hotel Information</div>
+    <div class="hotel-info">
+        <strong>Renaissance Paris Arc de Triomphe Hotel</strong><br>
+        Paris<br>
+        +33 1 55 37 55 37<br>
+        Check-in: Jun 20, 2025 3:00pm<br>
+        Check-out: Jun 24, 2025 12:00pm<br>
+        Confirmation #: 79666213
+    </div>
+    <div class="hotel-info">
+        <strong>Disney Hotel New York</strong><br>
+        Check-in: Jun 25, 2025 3:00pm<br>
+        Check-out: Jun 27, 2025 12:00pm<br>
+        Customer #: DC14660493<br>
+        Booking #: 28591651
+    </div>
+
+    
+    <div class="day-block" data-day="Fri 6/20">
+        <div class="day">Fri 6/20</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>Arrive 10:00am at CDG Airport 📍https://www.google.com/maps/search/Arrive%2010%3A00am%20at%20CDG%20Airport</li>
+            
+                <li>Hotel: Renaissance Arc De Triomphe (39 Av. de Wagram, 75017 Paris) 📍https://www.google.com/maps/search/Hotel%3A%20Renaissance%20Arc%20De%20Triomphe%20%2839%20Av.%20de%20Wagram%2C%2075017%20Paris%29</li>
+            
+                <li>Confirmation #: 79666213 📍https://www.google.com/maps/search/Confirmation%20%23%3A%2079666213</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>Check in at 3:00pm 📍https://www.google.com/maps/search/Check%20in%20at%203%3A00pm</li>
+            
+                <li>Unpack and Rest 📍https://www.google.com/maps/search/Unpack%20and%20Rest</li>
+            
+                <li>Walk to Arc de Triomphe, Champs-Élysées, Galeries Lafayette 📍https://www.google.com/maps/search/Walk%20to%20Arc%20de%20Triomphe%2C%20Champs-%C3%89lys%C3%A9es%2C%20Galeries%20Lafayette</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Dinner: Les Cocottes (modern French bistro) 📍https://www.google.com/maps/search/Dinner%3A%20Les%20Cocottes%20%28modern%20French%20bistro%29</li>
+            
+                <li>Optional: ADT Rooftop Tickets (8:30pm?) Optional: ADT Rooftop Tickets (8:30pm?)</li>
+            
+                <li>Nearby treat: Pierre Hermé macarons, 1 block east 📍https://www.google.com/maps/search/Nearby%20treat%3A%20Pierre%20Herm%C3%A9%20macarons%2C%201%20block%20east</li>
+            
+            </ul>
+        
+    </div>
+    
+    <div class="day-block" data-day="Sat 6/21">
+        <div class="day">Sat 6/21</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>Notre Dame Cathedral (9:00am - Reserve early) 📍https://www.google.com/maps/search/Notre%20Dame%20Cathedral%20%289%3A00am%20-%20Reserve%20early%29</li>
+            
+                <li>Nearby: Berthillon Ice Cream & Amorino flower gelato 📍https://www.google.com/maps/search/Nearby%3A%20Berthillon%20Ice%20Cream%20%26%20Amorino%20flower%20gelato</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>3:00pm Secret Food Tours – Meet at Blanche Metro (Line 2) 📍https://www.google.com/maps/search/3%3A00pm%20Secret%20Food%20Tours%20%E2%80%93%20Meet%20at%20Blanche%20Metro%20%28Line%202%29</li>
+            
+                <li>Explore: Wall of Love and Sacre Coeur 📍https://www.google.com/maps/search/Explore%3A%20Wall%20of%20Love%20and%20Sacre%20Coeur</li>
+            
+                <li>Nearby: Crepes & croissants at Le Grenier à Pain 📍https://www.google.com/maps/search/Nearby%3A%20Crepes%20%26%20croissants%20at%20Le%20Grenier%20%C3%A0%20Pain</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Bateaux Mouches Seine Ride (Port de la Conférence) 📍https://www.google.com/maps/search/Bateaux%20Mouches%20Seine%20Ride%20%28Port%20de%20la%20Conf%C3%A9rence%29</li>
+            
+                <li>Snack before ride: crepe stand at Pont de l’Alma 📍https://www.google.com/maps/search/Snack%20before%20ride%3A%20crepe%20stand%20at%20Pont%20de%20l%E2%80%99Alma</li>
+            
+            </ul>
+        
+    </div>
+    
+    <div class="day-block" data-day="Sun 6/22">
+        <div class="day">Sun 6/22</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>Train from Gare St. Lazare to Bayeux (8:59am) 📍https://www.google.com/maps/search/Train%20from%20Gare%20St.%20Lazare%20to%20Bayeux%20%288%3A59am%29</li>
+            
+                <li>Arrive Bayeux: 11:16am 📍https://www.google.com/maps/search/Arrive%20Bayeux%3A%2011%3A16am</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>1:00pm Normandy Half-Day Tour (pickup from Domaine De Bayeux) 📍https://www.google.com/maps/search/1%3A00pm%20Normandy%20Half-Day%20Tour%20%28pickup%20from%20Domaine%20De%20Bayeux%29</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Return Train: Bayeux departs 7:40pm – Arrives Paris 10:02pm 📍https://www.google.com/maps/search/Return%20Train%3A%20Bayeux%20departs%207%3A40pm%20%E2%80%93%20Arrives%20Paris%2010%3A02pm</li>
+            
+            </ul>
+        
+    </div>
+    
+    <div class="day-block" data-day="Mon 6/23">
+        <div class="day">Mon 6/23</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>Breakfast: Café Angelina (near Louvre) 📍https://www.google.com/maps/search/Breakfast%3A%20Caf%C3%A9%20Angelina%20%28near%20Louvre%29</li>
+            
+                <li>Louvre Museum – 10:30am time slot 📍https://www.google.com/maps/search/Louvre%20Museum%20%E2%80%93%2010%3A30am%20time%20slot</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>Eiffel Tower Visit 📍https://www.google.com/maps/search/Eiffel%20Tower%20Visit</li>
+            
+                <li>Madame Brasserie Lunch – 1:30pm reservation 📍https://www.google.com/maps/search/Madame%20Brasserie%20Lunch%20%E2%80%93%201%3A30pm%20reservation</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Musée D'Orsay (by 3:30pm, closes 6:00pm) 📍https://www.google.com/maps/search/Mus%C3%A9e%20D%27Orsay%20%28by%203%3A30pm%2C%20closes%206%3A00pm%29</li>
+            
+                <li>Nearby: Le Deux Magots (historic café, 15 min walk) 📍https://www.google.com/maps/search/Nearby%3A%20Le%20Deux%20Magots%20%28historic%20caf%C3%A9%2C%2015%20min%20walk%29</li>
+            
+            </ul>
+        
+    </div>
+    
+    <div class="day-block" data-day="Tues 6/24">
+        <div class="day">Tues 6/24</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>Versailles Day Trip – RER C to Château Rive Gauche 📍https://www.google.com/maps/search/Versailles%20Day%20Trip%20%E2%80%93%20RER%20C%20to%20Ch%C3%A2teau%20Rive%20Gauche</li>
+            
+                <li>9:00am Entry Slot 📍https://www.google.com/maps/search/9%3A00am%20Entry%20Slot</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>Return to Paris by 2:00pm 📍https://www.google.com/maps/search/Return%20to%20Paris%20by%202%3A00pm</li>
+            
+                <li>Rest at Hotel / Optional walk 📍https://www.google.com/maps/search/Rest%20at%20Hotel%20/%20Optional%20walk</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Musee D'Orsay revisit if missed 📍https://www.google.com/maps/search/Musee%20D%27Orsay%20revisit%20if%20missed</li>
+            
+                <li>Dinner: Café Constant or Creperie near Rue Cler 📍https://www.google.com/maps/search/Dinner%3A%20Caf%C3%A9%20Constant%20or%20Creperie%20near%20Rue%20Cler</li>
+            
+            </ul>
+        
+    </div>
+    
+    <div class="day-block" data-day="Wed 6/25">
+        <div class="day">Wed 6/25</div>
+        
+            <div class="section">Morning</div>
+            <ul>
+            
+                <li>9:45am Photoshoot with Maud – Trocadéro area 📍https://www.google.com/maps/search/9%3A45am%20Photoshoot%20with%20Maud%20%E2%80%93%20Trocad%C3%A9ro%20area</li>
+            
+            </ul>
+        
+            <div class="section">Afternoon</div>
+            <ul>
+            
+                <li>Check-in Disney Hotel New York 📍https://www.google.com/maps/search/Check-in%20Disney%20Hotel%20New%20York</li>
+            
+                <li>Disneyland Park – early afternoon entry 📍https://www.google.com/maps/search/Disneyland%20Park%20%E2%80%93%20early%20afternoon%20entry</li>
+            
+                <li>Lunch: Walt's (11:45am reservation) 📍https://www.google.com/maps/search/Lunch%3A%20Walt%27s%20%2811%3A45am%20reservation%29</li>
+            
+            </ul>
+        
+            <div class="section">Evening</div>
+            <ul>
+            
+                <li>Dinner: Auberge de Cendrillon – 3:30pm or 6:30pm options 📍https://www.google.com/maps/search/Dinner%3A%20Auberge%20de%20Cendrillon%20%E2%80%93%203%3A30pm%20or%206%3A30pm%20options</li>
+            
+                <li>Park closes: 10:40pm 📍https://www.google.com/maps/search/Park%20closes%3A%2010%3A40pm</li>
+            
+            </ul>
+        
+    </div>
     
     <div class="day-block" data-day="Thurs 6/26">
         <div class="day">Thurs 6/26</div>
@@ -50,34 +277,25 @@
             <div class="section">Morning</div>
             <ul>
             
-                <li>Both Parks – Magic Hours 8:30am <a href="https://www.google.com/maps/search/Both+Parks+Disneyland+Paris" target="_blank">https://www.google.com/maps/search/Both+Parks+Disneyland+Paris</a></li>
+                <li>Both Parks – Magic Hours 8:30am 📍https://www.google.com/maps/search/Both%20Parks%20%E2%80%93%20Magic%20Hours%208%3A30am</li>
             
             </ul>
         
             <div class="section">Afternoon</div>
             <ul>
             
-                <li>Lunch: Walt’s or Casey’s Corner <a href="https://www.google.com/maps/search/Walt&#39;s+Disneyland+Paris" target="_blank">https://www.google.com/maps/search/Walt&#39;s+Disneyland+Paris</a></li>
+                <li>Lunch: Walt’s or Casey’s Corner 📍https://www.google.com/maps/search/Lunch%3A%20Walt%E2%80%99s%20or%20Casey%E2%80%99s%20Corner</li>
             
-                <li>Snacks: March Hare ice cream, Liberty Arcade treats <a href="https://www.google.com/maps/search/March+Hare+Refreshments+Disneyland+Paris" target="_blank">https://www.google.com/maps/search/March+Hare+Refreshments+Disneyland+Paris</a></li>
+                <li>Snacks: March Hare ice cream, Liberty Arcade treats 📍https://www.google.com/maps/search/Snacks%3A%20March%20Hare%20ice%20cream%2C%20Liberty%20Arcade%20treats</li>
             
             </ul>
         
             <div class="section">Evening</div>
             <ul>
             
-                <li>Dinner: Manhattan Restaurant (21:00 reservation) <a href="https://www.google.com/maps/search/Manhattan+Restaurant+Disneyland+Paris" target="_blank">https://www.google.com/maps/search/Manhattan+Restaurant+Disneyland+Paris</a></li>
+                <li>Dinner: Manhattan Restaurant (21:00 reservation) 📍https://www.google.com/maps/search/Dinner%3A%20Manhattan%20Restaurant%20%2821%3A00%20reservation%29</li>
             
-                <li>Return to hotel and pack</li>
-            
-            </ul>
-        
-            <div class="section">Disneyland Ride Strategy</div>
-            <ul>
-            
-                <li><div class='section'>Walt Disney Studios Ride Strategy</div><ul><li><strong>Tower of Terror</strong>: Start with Crush’s Coaster – This ride has notoriously long lines, so hitting it first thing in the morning is ideal.</li><li><strong>Crush’s Coaster</strong>: 1. Move to Ratatouille: The Adventure – Since it’s nearby, you can quickly check it off your list.</li><li><strong>Ratatouille</strong>: 2. Head to Avengers Assemble: Flight Force – A thrilling coaster that’s worth the adventure.</li><li><strong>Avengers Assemble</strong>: 3. Swing over to Spider-Man W.E.B. Adventure – Another Marvel attraction that’s close by.</li><li><strong>Spider Man</strong>: 4. Tower of Terror – A classic Disney thrill ride that usually has a steady queue.</li><li><strong>RC Racer</strong>: 5. RC Racer – A high-speed attraction that’s fun but can have long waits.</li><li><strong>Toy Soldiers Parachute Drop</strong>: 6. End with Toy Soldiers Parachute Drop – It’s a great way to wrap up your route.</li></ul></li>
-            
-                <li><div class='section'>Disneyland Park Ride Strategy</div><ul><li><strong>Big Thunder Mountain</strong>: Start with Hyperspace Mountain – This ride tends to have long lines, so hit it early.</li><li><strong>Phantom Manor</strong>: 1. Move to Star Tours – It’s nearby and quick to check off.</li><li><strong>Pirates of the Caribbean</strong>: 2. Buzz Lightyear Laser Blast – Another Tomorrowland attraction that’s close by.</li><li><strong>Indiana Jones</strong>: 3. Head to Peter Pan’s Flight – Long waits, so do this earlier.</li><li><strong>Peter Pan’s Flight</strong>: 4. Pirates of the Caribbean – Steady queue classic.</li><li><strong>Hyperspace Mountain</strong>: 5. Indiana Jones and the Temple of Peril – Worth the thrill.</li><li><strong>Star Tours</strong>: 6. Big Thunder Mountain – Aim for a shorter line window.</li><li><strong>Buzz Lightyear</strong>: 7. End with Phantom Manor – It’s nearby and a great wrap-up.</li></ul></li>
+                <li>Return to hotel and pack 📍https://www.google.com/maps/search/Return%20to%20hotel%20and%20pack</li>
             
             </ul>
         
@@ -89,25 +307,18 @@
             <div class="section">Morning</div>
             <ul>
             
-                <li>Check out of Disney Hotel</li>
+                <li>Check out of Disney Hotel 📍https://www.google.com/maps/search/Check%20out%20of%20Disney%20Hotel</li>
             
-                <li>Transfer RER A -&gt; RER B to CDG <a href="https://www.google.com/maps/search/CDG+Airport" target="_blank">https://www.google.com/maps/search/CDG+Airport</a></li>
+                <li>Transfer RER A -> RER B to CDG 📍https://www.google.com/maps/search/Transfer%20RER%20A%20-%3E%20RER%20B%20to%20CDG</li>
             
             </ul>
         
             <div class="section">Afternoon</div>
             <ul>
             
-                <li>Flight AA 49 – 11:00am departure <a href="https://www.google.com/maps/search/AA+Flight+49+CDG" target="_blank">https://www.google.com/maps/search/AA+Flight+49+CDG</a></li>
+                <li>Flight AA 49 – 11:00am departure 📍https://www.google.com/maps/search/Flight%20AA%2049%20%E2%80%93%2011%3A00am%20departure</li>
             
-                <li>Arrive home 2:25pm</li>
-            
-            </ul>
-        
-            <div class="section">Optional Morning Priorities</div>
-            <ul>
-            
-                <li>If arriving early, revisit top priority rides: Big Thunder Mountain or Crush's Coaster.</li>
+                <li>Arrive home 2:25pm 📍https://www.google.com/maps/search/Arrive%20home%202%3A25pm</li>
             
             </ul>
         
